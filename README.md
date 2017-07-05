@@ -40,3 +40,19 @@ the 'real-conf' folder consist of the following template,
 	*  haproxy.cfg-ssl-individual		=	https configuration in specified backend with request header 
 
 ```
+
+
+NOTE :::
+
+ *	5432 port is used for web_ui (need credentials)
+This port is configured in the file 'haproxy.cfg' under the mount location
+
+
+web_ui ::
+
+```
+admin		=		
+password	=		
+
+```
+
